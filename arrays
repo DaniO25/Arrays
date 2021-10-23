@@ -1,0 +1,116 @@
+
+
+let ropa = [
+
+    {
+      "color": "morado",
+      "prenda": "camiseta",
+      "material": "algodón",
+      "talla": "S",
+      "objetivo": "informal"
+    },
+    {
+      "color": "azul",
+      "prenda": "jean",
+      "material": "poliester",
+      "talla": "XS",
+      "objetivo": "informal"
+    },
+    {
+      "color": "rosado",
+      "prenda": "vestido",
+      "material": "seda",
+      "talla": "S",
+      "objetivo": "formal"
+    },
+    {
+      "color": "verde",
+      "prenda": "buso",
+      "material": "algodón perchado",
+      "talla": "M",
+      "objetivo": "informal"
+    },
+    {
+      "color": "rojo",
+      "prenda": "chaqueta",
+      "material": "cuero",
+      "talla": "S",
+      "objetivo": "informal"
+    },
+    {
+      "color": "negro",
+      "prenda": "pantalón",
+      "material": "denim",
+      "talla": "S",
+      "objetivo": "formal"
+    },
+    {
+      "color": "café",
+      "prenda": "zapatos",
+      "material": "sintético",
+      "talla": "36",
+      "objetivo": "formal"
+    },
+    {
+      "color": "naranja",
+      "prenda": "abrigo",
+      "material": "peluche",
+      "talla": "S",
+      "objetivo": "informal"
+    },
+    {
+      "color": "amarillo",
+      "prenda": "buso",
+      "material": "lana",
+      "talla": "S",
+      "objetivo": "informal"
+    },
+    {
+      "color": "azul claro",
+      "prenda": "jean",
+      "material": "denim",
+      "talla": "S",
+      "objetivo": "informal"
+    },
+    {
+      "color": "beige",
+      "prenda": "gorro",
+      "material": "lana",
+      "talla": "S",
+      "objetivo": "informal"
+    },
+    {
+      "color": "fuxia",
+      "prenda": "licra",
+      "material": "algodón",
+      "talla": "S",
+      "objetivo": "informal"
+    },
+    {
+      "color": "blanco",
+      "prenda": "vestido",
+      "material": "terciopelo",
+      "talla": "XS",
+      "objetivo": "formal"
+    },
+    {
+      "color": "gris",
+      "prenda": "leggins",
+      "material": "poliester",
+      "talla": "XS",
+      "objetivo": "informal"
+    },
+    {
+      "color": "turquesa",
+      "prenda": "blusa",
+      "material": "terciopelo",
+      "talla": "S",
+      "objetivo": "formal"
+    },
+    
+]
+let conteo = ropa.length
+
+for (let i = 0; i < conteo; i++) {
+    document.write(ropa[i].ropa +'<br>')
+ }
